@@ -1,0 +1,142 @@
+*{
+	padding:0;
+	margin:0; 
+	list-style:none;}
+
+.center{
+	width: 600px;
+	height: 560px;
+
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	overflow:hidden;
+}
+#container1{ 
+    width: 540px;
+	height: 540px;
+	z-index:2;
+	display:inline; 
+}
+#container2{ 
+    width: 540px;
+	height: 540px;
+	z-index:3;
+   display:none;
+}
+#container3{ 
+    width: 540px;
+	height: 540px;
+	z-index:4;
+	display:inline; 
+}
+#container4{ 
+    width: 540px;
+	height: 540px;
+	z-index:5;
+	display:inline; 
+}
+.center img{
+	float: left;
+	width: 150px;
+	height: 150px;
+	cursor: pointer;
+	display: block;
+	border: none;
+	margin: 0px;
+	border: medium none;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+.popup{
+	position: fixed;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: none;
+	background-color: rgba(0,0,0,0.8);
+}
+.show{
+	position: absolute;
+   	top: 50px;
+	left: 30px;
+	margin-left: 350px;
+	margin-top: 30px;
+	display: none;
+
+}
+
+.big{
+	width: 600px;
+	height: 500px;
+
+}
+.left{
+	position: absolute;
+	top: 125px;
+	left: -50px;
+	cursor: pointer;
+
+}
+
+#ziti {
+	font-size: 30px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+}
+.right{
+	position: absolute;
+	top: 125px;
+	right: -50px;
+	cursor: pointer;
+
+}
+.center a {
+	display:block;
+	float:left;
+	width:150px;
+	height:155px;
+	margin:3px 1px;
+	padding:6px;
+	border:solid 1px #b8b8b8;
+	background-color:#f4f5f5;
+	opacity:0.87;
+}
+.center a:hover {
+	opacity:1;
+}
+#tt{ width:400px; height:30px; text-align:center;} 
+ul { width:400px; height:30px;padding:0px;margin:0px;} 
+  li {width:80px;height:30px; float:left; list-style-type:none;}
+  li a { display:block;text-decoration:none; background:#fff9bd; font-weight:bold; width:30px;  color:#fdb8a3;} 
+
+  #a1{
+	display: inline-block;
+	position: absolute;
+	left: 378px;
+	top: 30px;
+	height: 20px;
+	width: 70px;
+}   
+  #a2{
+	display: inline-block;
+	position: absolute;
+	left: 462px;
+	top: 30px;
+	height: 20px;
+	width: 70px;
+} 
+  #a3{
+	display: inline-block;
+	position: absolute;
+	left: 546px;
+	top: 30px;
+	height: 20px;
+	width: 70px;
+
+} 
+  a#a1:hover {background:#ffd6af; font-size:16px;} a#a2:hover {background:#ffd6af; font-size:16px;} a#a3:hover {background:#ffd6af; font-size:16px;}

@@ -1,0 +1,25 @@
+table{
+  margin:50px auto;
+  height:250px;
+}
+td {
+        border: 3px solid lightgray;
+        width: 50px;
+        text-align:center;
+        font-size:1.4em;
+        border-radius:10px;
+        background-color:darkcyan;
+
+    }
+     
+#results{
+         height: 50px;
+         font-size:1.4em;
+         color:whitesmoke;
+         background-color:hotpink;
+  }
+a{
+  text-decoration:none;
+  color:ghostwhite;
+  display:block;
+}
